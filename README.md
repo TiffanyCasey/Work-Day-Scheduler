@@ -1,4 +1,4 @@
-# WORK DAYS SCHEDULER 
+# WORK DAY SCHEDULER 
 
 Description:  This is a simple calendar application that allows the user to save tasks for each specific hour of the current day. 
 
