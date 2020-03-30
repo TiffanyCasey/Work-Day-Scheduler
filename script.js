@@ -17,6 +17,9 @@ $("#5Row").attr("data-time", moment("5:00 pm", "h:mm a").format("HH"));
 //start jQuery 
 $(document).ready(function () {
 
+    // Function to store inputted data 
+    renderPlans();
+
   // Show Date and Time in Header 
   $("#currentDay").append();
 
@@ -39,6 +42,21 @@ $(document).ready(function () {
       }
       if (currentHourInt < inputHourInt) { // Applies green color if hour is in the future 
           $("#" + i + "Row").addClass("future");
+      }
+    }
+
+    // Function that triggers data to be store in local storage when save button clicked 
+    saveBtn.on("click", function () { // On-click 
+
+      var rowHour = $(this).attr("data-hour"); // variable referencing the assigned hour row in the html doc 
+      var input = $("#" + rowHour + "Row").val(); // saves the text that has been entered into the input column 
+      localStorage.setItem(rowHour, input); //saves input to local storaage
+    });
+  
+    //  Function to retrieve the stored input that was saved in each input 
+    function renderPlans() {
+      for (var i = 0; i <= 12; i++) {
+      $("#" + i + "Row").val(localStorage.getItem(i));
       }
     }
 });
