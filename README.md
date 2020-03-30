@@ -1,4 +1,4 @@
-#Work Day Scheduler
+# WORK DAYS SCHEDULER 
 
 Description:  This is a simple calendar application that allows the user to save tasks for each specific hour of the current day. 
 
@@ -10,7 +10,9 @@ Grey: Previous hours of the day no longer available
 Red: The current hour 
 Green: Future hours 
 
-Image of the Work Day Scheduler: ![image](https://user-images.githubusercontent.com/60197994/77966768-af0f1300-72b1-11ea-8380-4a826950a951.png)
-
 Technologies Used: HTML5, CSS3, JavaScript, jQuery, Moment.js
+
+![image](https://user-images.githubusercontent.com/60197994/77966768-af0f1300-72b1-11ea-8380-4a826950a951.png)
+
+
 
