@@ -71,7 +71,7 @@ body {
   }
 
   table {
-    background-color: lavenderblush;
+    background-color: pink;
   }
 
 th #time {
@@ -81,7 +81,7 @@ th #time {
 
 .time {
     color: white;
-    background-color:;
+    background-color;
   }
 
 head {
@@ -108,6 +108,12 @@ table.table-bordered > tbody > tr > td{
 .btn {
   background-color: #01425e;
   color: white;
+}
+
+#currentDay {
+color:  pink;
+size: 30px;
+font-weight: bold;
 }
 
 
