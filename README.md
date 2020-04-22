@@ -12,6 +12,8 @@ Green: Future hours
 
 Technologies Used: HTML5, CSS3, JavaScript, jQuery, Moment.js
 
+Deployed Site: https://tiffanycasey.github.io/Work-Day-Scheduler/
+
 ![image](https://user-images.githubusercontent.com/60197994/77966768-af0f1300-72b1-11ea-8380-4a826950a951.png)
 
 
